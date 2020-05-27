@@ -1,4 +1,5 @@
 const getCal = require("node-ical");
+const striptags = require("striptags");
 
 exports.handler = async (event) => {
   if (event.httpMethod === "OPTIONS") {
@@ -22,8 +23,11 @@ exports.handler = async (event) => {
 
       const sorted = events
         .filter((event) => event.end.getTime() > Date.now())
-        .sort((a, b) => a.start.getTime() - b.start.getTime());
-
+        .sort((a, b) => a.start.getTime() - b.start.getTime())
+        .map((event) => ({
+          ...event,
+          description: striptags(event.description),
+        }));
       resolve(sorted);
     });
   }).catch((err) => console.log(err));
