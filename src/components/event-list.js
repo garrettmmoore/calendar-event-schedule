@@ -1,9 +1,7 @@
 /**@jsx jsx */
 import { jsx } from "../contexts/theme-context";
 
-import Event from "./event";
-
-export const EventList = ({ events }) => (
+const EventList = ({ events }) => (
   <ol>
     {events.map((event) => {
       return (
