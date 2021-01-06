@@ -18,7 +18,7 @@
     "@emotion/core": "^10.0.35",
     "@mdx-js/react": "^1.6.16",
     "@theme-ui/presets": "^0.3.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "gatsby": "^2.24.53",
