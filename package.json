@@ -21,7 +21,7 @@
     "axios": "^0.25.0",
     "dotenv": "^14.2.0",
     "express": "^4.17.2",
-    "gatsby": "^4.24.4",
+    "gatsby": "^5.0.1",
     "isolated-theme-ui": "^1.0.1",
     "node-ical": "^0.14.1",
     "react": "^17.0.2",
