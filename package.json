@@ -20,7 +20,7 @@
     "@theme-ui/presets": "^0.13.1",
     "axios": "^0.25.0",
     "dotenv": "^14.2.0",
-    "express": "^4.17.2",
+    "express": "^4.18.2",
     "gatsby": "^5.0.1",
     "isolated-theme-ui": "^1.0.1",
     "node-ical": "^0.14.1",
